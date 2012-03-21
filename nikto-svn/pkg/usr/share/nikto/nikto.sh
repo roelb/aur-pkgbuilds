@@ -1,1 +1,0 @@
-/home/roel/git/aur-pkgbuilds/nikto-svn/nikto.sh
