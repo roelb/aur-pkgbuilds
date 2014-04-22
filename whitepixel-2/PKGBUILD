@@ -14,7 +14,6 @@ md5sums=(594f49b70a5e4f7d85c4305aa01458f1)
 
 build() {
 	  cd "$srcdir/$pkgname-$pkgver"
-
 	  sed -i 's/\/usr\/local\/ati-stream\//\/opt\/amdstream\//g' Makefile
 	  make || return 1
 }
